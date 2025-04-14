@@ -1,0 +1,154 @@
+.card{
+    width: 23vh;
+    height: 61vh;
+    border: 8px solid #bbbaba;
+    border-radius: 23px;
+    margin-bottom:28px ;
+}
+.name{
+    margin:10px 0px 10px 26px;
+    font-size: 20px;
+}
+.nameSpan{
+    margin-left: 45px;
+    font-size: 20px;
+}
+.textPrice{
+    margin:10px 0px 10px 26px;
+    font-size: 20px;
+}
+.priceSpan{
+    margin-left: 41px;
+    font-size: 20px;
+}
+.textRating{
+    margin:10px 0px 10px 26px;
+    font-size: 20px;
+}
+.rating{
+    margin-left: 42px;
+    font-size: 20px;
+}
+.textCount{
+    margin:10px 0px 10px 26px;
+    font-size: 20px;
+}
+.count{
+    margin-left: 35px;
+    font-size: 20px;
+}
+.textDescription{
+    margin:10px 0px 10px 26px;
+    font-size: 20px;
+}
+.description{
+    margin: 12px 11px 0px 26px;;
+    font-size: 18px;
+}
+.bageimg{
+    width: 17vh;
+    border-radius: 30px;
+    margin: 9px 0px 0px 19px;
+    border: 4px solid #bbbaba;
+    padding: 10px;
+    height: 17vh;
+}
+
+.cardName{
+    margin: 15px 21px 15px 25px;
+    font-size: 20px;
+}
+.descWord{
+    margin: 5px 21px 15px 25px;
+    font-size: 19px;
+}
+.manCard{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.cateGory{
+    padding: 13px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.cateGoryDiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 0px 45px;
+}
+.searchInput{
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    width: 94%;
+    outline: none;
+}
+.searchBar{
+    width: 73vh;
+    border: 2px solid black;
+    height: 47px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.searchImage{
+    width: 21px;
+    margin-left: 10px;
+}
+.deleteBtn{
+    width: 47%;
+    border-radius:5px ;
+    margin-right: 11px;
+    padding: 5px;
+    margin-left:3px ;
+}
+.editBtn{
+    width: 47%;
+    border-radius:5px ;
+    padding: 5px;
+}
+.priceInput {
+    padding: 5px;
+    margin-right: 10px;
+    width: 80px;
+}
+.nameInput, .priceInput, .countInput, .descInput {
+    display: block;
+    margin: 5px 3px;
+    padding: 6px;
+    width: 90%;
+    border-radius: 5px;
+}
+.names{
+    font-size: 20px;
+    margin: 19px 0px 0px 7px;
+}
+.prices{
+    font-size: 20px;
+    margin: 19px 0px 0px 7px;
+}
+.ratings{
+    font-size: 20px;
+    margin: 19px 0px 4px 7px;
+}
+.counts{
+    font-size: 20px;
+    margin: 19px 0px 0px 7px;
+}
+.descriptions{
+    font-size: 20px;
+    margin: 19px 0px 3px 7px;
+}
+.descWordInput{
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    width: 94%;
+    margin: 5px 3px;
+}
+.ratinginput{
+    margin: 5px 3px;
+}
