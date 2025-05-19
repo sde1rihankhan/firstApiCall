@@ -160,7 +160,7 @@ function prodectCardData(item){
         let descWord = document.createElement("p")
         descWord.className = "descWord"
 
-        let word = item.description.split(" ").slice(0,15).join(" ") + ("...")
+        let word = item.description.split(" ").slice(0,5).join(" ") + ("...")
         descWord.innerText = `Description:\u00A0-\u00A0 ${word}`
 
         card.appendChild(cardlist)
