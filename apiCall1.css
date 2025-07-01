@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+}
+.card{
+    height: 74vh;
+    width: 27vh;
+    border-radius: 23px;
+    border: 8px solid #bbbaba;
+}
+.bageimg{
+    width: 17vh;
+    height: 20vh;
+    border: 4px solid #bbbaba;
+    margin: 9px 0px 0px 25px;
+    border-radius: 27px;
+    padding: 10px;
+}
+.cardName{
+    margin: 15px 21px 15px 18px;
+    font-size: 18px;
+}
+.textPrice{
+    margin: 10px 0px 10px 18px;
+    font-size: 18px;
+}
+.textRating{
+    margin: 10px 0px 10px 18px;
+    font-size: 18px;
+}
+.textCount{
+    margin: 10px 0px 10px 18px;
+    font-size: 18px;
+}
+.textDescription{
+    margin: 10px 0px 10px 18px;
+    font-size: 18px;
+}
+.description{
+    margin: 12px 11px 0px 26px;;
+    font-size: 18px;
+}
+.manCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.deleteBtn{
+    margin-right: 10px;
+    width: 46%;
+    padding: 5px 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.updateBtn{
+    margin-top: 13px;
+    width: 46%;
+    padding: 5px 33px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.names{
+    font-size: 18px;
+    margin: 0px 0px 4px 10px;
+}
+.price{
+    font-size: 18px;
+    margin: 10px 0px 4px 10px;
+}
+.rating{
+    font-size: 18px;
+    margin: 10px 0px 4px 10px;
+}
+.count{
+    font-size: 18px;
+    margin: 10px 0px 4px 10px;
+}
+.descriptions{
+    font-size: 18px;
+    margin: 10px 0px 4px 10px;
+}
+.nameInput{
+    margin: 0px 0px 4px 10px;
+    padding: 6px;
+    width: 84%;
+    display: flex;
+}
+.priceInput{
+    margin: 0px 0px 4px 10px;
+    padding: 6px;
+    width: 84%;
+    display: flex;
+}
+.ratingInput{
+    margin: 0px 0px 4px 10px;
+    padding: 6px;
+    width: 84%;
+    display: flex;
+}
+.countInput{
+    margin: 0px 0px 4px 10px;
+    padding: 6px;
+    width: 84%;
+    display: flex;
+}
+.descWordInput{
+    margin: 0px 0px 4px 10px;
+    padding: 6px;
+    width: 84%;
+    display: flex;
+}
+.searchImage{
+    width: 21px;
+    margin-left: 10px;
+}
+.searchBar{
+    width: 73vh;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.searchInput{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 94%;
+}
+.searchCateGoryDiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 0px 45px;
+}
+.cateGory{
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+}

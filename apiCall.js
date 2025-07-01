@@ -11,7 +11,6 @@ let getFacts = async()=>{
     data.map((item)=>{
     let text = document.createElement("p");
     text.innerText = item.title
-    // card.appendChild(text)
 
     let cardlist = document.createElement("div")
     cardlist.className = "card"
@@ -28,7 +27,6 @@ let getFacts = async()=>{
 
     let nameSpan = document.createElement("span")
     nameSpan.className = "nameSpan"
-    // name.innerText = item.title
 
     let textPrice = document.createElement("p")
         textPrice.innerText = `Price: \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0-\u00A0\u00A0\u00A0\u00A0\u00A0₹${item.price}`
@@ -54,7 +52,6 @@ let getFacts = async()=>{
     countSpan.className = "countSpan"
      
     let textDescription = document.createElement("p")
-    // textDescription.innerText = `Description: \u00A0\u00A0\u00A0\u00A0\u00A0-\u00A0\u00A0\u00A0\u00A0\u00A0₹${item.description}`
     textDescription.className = "textDescription"
 
     let descWord = document.createElement("p")
@@ -78,15 +75,6 @@ let getFacts = async()=>{
 
     cardlist.appendChild(textDescription)
     cardlist.appendChild(description)
-
-
-    // cardlist.appendChild(name)
-    // textPrice.appendChild(priceSpan)
-    // name.appendChild(nameSpan)
-    // textRating.appendChild(ratingSpan)
-    // textCount.appendChild(countSpan)
     })
-    
 }
 getFacts()
-

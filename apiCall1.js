@@ -18,6 +18,7 @@ function prodectCardData(item){
             parentDiv.remove()
             apiData.filter((item) =>item.id !== parseInt(deleteBtnId))
 
+
         })
 
     let updateBtn = document.createElement("button")
@@ -93,20 +94,18 @@ function prodectCardData(item){
             textCount.appendChild(countInput);
             descWord.appendChild(descWordInput);
 
-        cardlist.insertBefore(names, textRating)
-        cardlist.insertBefore(nameInput, textRating)
-        cardlist.insertBefore(price, textRating)
-        cardlist.insertBefore(priceInput, textRating)
-        cardlist.insertBefore(rating, textRating)
-        cardlist.insertBefore(ratingInput, textRating)
-        cardlist.insertBefore(count, textRating)
-        cardlist.insertBefore(countInput, textRating)
-        cardlist.insertBefore(description, textRating)
-        cardlist.insertBefore(descWordInput, textRating)
+        cardlist.appendChild(names, textRating)
+        cardlist.appendChild(nameInput, textRating)
+        cardlist.appendChild(price, textRating)
+        cardlist.appendChild(priceInput, textRating)
+        cardlist.appendChild(rating, textRating)
+        cardlist.appendChild(ratingInput, textRating)
+        cardlist.appendChild(count, textRating)
+        cardlist.appendChild(countInput, textRating)
+        cardlist.appendChild(description, textRating)
+        cardlist.appendChild(descWordInput, textRating)
 
-            
-        
-        } else{
+        }else{
             updateBtn.innerText = "Edit"
 
             let newName = cardlist.querySelector(".nameInput").value
@@ -131,9 +130,6 @@ function prodectCardData(item){
 }
     })
 
-    let text =  document.createElement("p")
-        text.innerText = item.title
-
         let cardlist = document.createElement("div")
         cardlist.className = "card"
 
@@ -148,7 +144,6 @@ function prodectCardData(item){
         textPrice.innerText = `Price: \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0-\u00A0\u00A0\u00A0\u00A0\u00A0₹${item.price}`
         textPrice.className  = "textPrice"
 
-        //  let textRating = document.createElement("progress")
          let textRating = document.createElement("p")
          textRating.innerText = `Rating: \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0-\u00A0\u00A0\u00A0\u00A0\u00A0 ${item.rating.rate}`
         textRating.className = "textRating"
@@ -215,9 +210,6 @@ function changeProdect(event){
    dataSerchFilter = apiData.filter((data)=>{
     let itemuppercase = item.toUpperCase()
     let titleuppercase = data.title.toUpperCase()
-
-    
-    
     return titleuppercase.includes(itemuppercase)
     
     })

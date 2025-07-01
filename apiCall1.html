@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./apiCall1.css">
+</head>
+<body>
+    <div class="searchCateGoryDiv">
+    <div class="searchBar">
+        <div>
+            <img class="searchImage" src="./magnifying-glass-solid.svg" >
+        </div>
+        <input class="searchInput" onchange="changeProduct(event)" type="text" placeholder="Search Product">
+    </div>
+    <div>
+        <select class="cateGory" onchange="manClothing(event)">
+            <option value="All">All</option>
+            <option value="men's clothing">men's clothing</option>
+            <option value="jewelery">jewelery</option>
+            <option value="electronics">electronics</option>
+            <option value="women's clothing">women's clothing</option>
+        </select>
+    </div>
+    </div>
+    <div class="manCard">
+    </div>
+    <script src="./apiCall2.js"></script>
+</body>
+</html>
