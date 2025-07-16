@@ -204,7 +204,6 @@ function changeProduct(event){
         let titleuppercase = data.title.toUpperCase()
         return titleuppercase.includes(itemuppercase)
     })
-    
     card.innerHTML = ""
     dataSerchFilter.map((item)=>{
         prodectCardData(item)

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./apiCall1.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="searchCateGoryDiv">
@@ -12,7 +12,7 @@
         <div>
             <img class="searchImage" src="./magnifying-glass-solid.svg" >
         </div>
-        <input class="searchInput" onchange="changeProduct(event)" type="text" placeholder="Search Product">
+        <input class="searchInput" oninput="changeProduct(event)" type="text" placeholder="Search Product">
     </div>
     <div>
         <select class="cateGory" onchange="manClothing(event)">
@@ -26,6 +26,6 @@
     </div>
     <div class="manCard">
     </div>
-    <script src="./apiCall2.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
