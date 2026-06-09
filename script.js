@@ -167,7 +167,7 @@ function prodectCardData(item){
 
 let getFacts = async ()=>{
     let responce = await fetch(url)
-    console.log(responce);
+    // console.log(responce);
     let data = await responce.json()
     console.log(data);
     apiData = data
